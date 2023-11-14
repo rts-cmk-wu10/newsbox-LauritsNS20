@@ -10,20 +10,12 @@ module.exports = {
 		template: path.resolve(__dirname, "src", "index.html")
 	}),
 	new HtmlWebpackPlugin({
-		template: path.resolve(__dirname, "src", "artikel.html"),
-		filename: "artikel.html"
+		template: path.resolve(__dirname, "src", "archive.html"),
+		filename: "archive.html"
 	}),
 	new HtmlWebpackPlugin({
-		template: path.resolve(__dirname, "src", "todo.html"),
-		filename: "todo.html"
-	}),
-	new HtmlWebpackPlugin({
-		template: path.resolve(__dirname, "src", "darkmode.html"),
-		filename: "darkmode.html"
-	}),
-	new HtmlWebpackPlugin({
-		template: path.resolve(__dirname, "src", "touch.html"),
-		filename: "touch.html"
+		template: path.resolve(__dirname, "src", "settings.html"),
+		filename: "settings.html"
 	})],
 	module: {
 		rules: [
